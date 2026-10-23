@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- ======================================================== -->
+  <!-- CATEGORÍA DEL BANCO DE PREGUNTAS                          -->
+  <!-- ======================================================== -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Biologia_y_Ciencias_2026</text>
+    </category>
+    <info format="html">
+      <text><![CDATA[<p>Banco de preguntas de Biología Celular y Ciencias Naturales con retroalimentación completa.</p>]]></text>
+    </info>
+  </question>
+
+  <!-- ======================================================== -->
+  <!-- PREGUNTA 1: Opción Múltiple (Biología - Mitocondria)     -->
+  <!-- ======================================================== -->
+  <question type="multichoice">
+    <name>
+      <text>BIO01 - Organelo productor de ATP</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál de los siguientes organelos celulares es el principal responsable de la <strong>respiración celular</strong> y la síntesis de la mayor parte del <strong>ATP</strong> en las células eucariotas?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Retroalimentación general:</strong> Las mitocondrias son conocidas comúnmente como las <em>"centrales energéticas"</em> de la célula, ya que en su membrana interna se lleva a cabo la fosforilación oxidativa que genera la mayor parte del trifosfato de adenosina (ATP).</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+
+    <correctfeedback format="html">
+      <text><![CDATA[<p>¡Excelente trabajo! Has identificado correctamente el organelo clave de la bioenergética celular.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Tu respuesta es parcialmente correcta. Revisa las funciones específicas de los organelos citoplasmáticos.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta incorrecta. Recuerda que la síntesis principal de ATP aeróbico ocurre en la mitocondria.</p>]]></text>
+    </incorrectfeedback>
+
+    <answer fraction="100" format="html">
+      <text><![CDATA[Mitocondria]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><strong>¡Exacto!</strong> La mitocondria realiza el ciclo de Krebs y la cadena de transporte de electrones para sintetizar ATP.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Aparato de Golgi]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><strong>Incorrecto.</strong> El aparato de Golgi se encarga de modificar, clasificar y empaquetar proteínas y lípidos, no de generar ATP.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Retículo Endoplasmático Liso]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><strong>Incorrecto.</strong> El retículo endoplasmático liso participa en la síntesis de lípidos y desintoxicación celular, no en la fosforilación oxidativa.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Lisosoma]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><strong>Incorrecto.</strong> Los lisosomas contienen enzimas digestivas hidrolíticas para la degradación celular, no sintetizan ATP.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- ======================================================== -->
+  <!-- PREGUNTA 2: Verdadero o Falso (Genética - Dogma Central) -->
+  <!-- ======================================================== -->
+  <question type="truefalse">
+    <name>
+      <text>BIO02 - Transcripción del ADN</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El proceso mediante el cual la información genética contenida en el <strong>ADN</strong> se copia a una molécula de <strong>ARN mensajero (ARNm)</strong> se denomina <em>transcripción</em>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Retroalimentación general:</strong> La transcripción es la primera etapa de la expresión génica. En ella, la enzima ARN polimerasa sintetiza ARN a partir de una hebra molde de ADN. Posteriormente, la <em>traducción</em> convierte el ARNm en proteína.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+
+    <correctfeedback format="html">
+      <text><![CDATA[<p>¡Correcto! Comprendes con claridad el primer paso del dogma central de la biología molecular.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Respuesta parcialmente acertada.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Incorrecto. La afirmación es verdadera: la síntesis de ARN a partir de ADN se llama transcripción.</p>]]></text>
+    </incorrectfeedback>
+
+    <answer fraction="100" format="html">
+      <text>true</text>
+      <feedback format="html">
+        <text><![CDATA[<p><strong>¡Muy bien!</strong> Efectivamente, la transcripción es la síntesis de ARNm usando como plantilla el ADN.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>false</text>
+      <feedback format="html">
+        <text><![CDATA[<p><strong>Error.</strong> La afirmación sí es correcta. La transcripción produce ARNm a partir de ADN.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- ======================================================== -->
+  <!-- PREGUNTA 3: Opción Múltiple (Fotosíntesis y Cloroplastos)  -->
+  <!-- ======================================================== -->
+  <question type="multichoice">
+    <name>
+      <text>BIO03 - Pigmento fotosintético</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué pigmento es el principal encargado de absorber la luz solar durante la <strong>fase luminosa</strong> de la fotosíntesis en las plantas verdes?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Retroalimentación general:</strong> La clorofila (especialmente la clorofila <em>a</em> y <em>b</em>) absorbe principalmente las longitudes de onda azul y roja del espectro visible, reflejando la luz verde, lo que da a las hojas su color característico.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.5000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>123</answernumbering>
+
+    <correctfeedback format="html">
+      <text><![CDATA[<p>¡Respuesta perfecta! Has dominado el concepto de captación de energía lumínica.</p>]]></text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>No es la respuesta correcta. Revisa los pigmentos presentes en los tilacoides de los cloroplastos.</p>]]></text>
+    </incorrectfeedback>
+
+    <answer fraction="100" format="html">
+      <text><![CDATA[Clorofila]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><strong>¡Acertaste!</strong> La clorofila es el fotorreceptor primario en los fotosistemas I y II de las plantas verdes.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Hemoglobina]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><strong>Incorrecto.</strong> La hemoglobina es una proteína de transporte de oxígeno en la sangre de animales vertebrados, no un pigmento vegetal.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Melanina]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><strong>Incorrecto.</strong> La melanina es el pigmento biológico responsable del color de la piel, pelo e iris en animales.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Caroteno]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><strong>Casi, pero incorrecto.</strong> El caroteno es un pigmento accesorio que protege contra el foto-daño, pero el pigmento primario es la clorofila.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <!-- ======================================================== -->
+  <!-- PREGUNTA 4: Verdadero o Falso (Célula Procariota vs Eucariota) -->
+  <!-- ======================================================== -->
+  <question type="truefalse">
+    <name>
+      <text>BIO04 - Membrana Nuclear en Bacterias</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Las bacterias (células <strong>procariotas</strong>) poseen un núcleo verdadero delimitado por una doble membrana nuclear o envoltura nuclear.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><strong>Retroalimentación general:</strong> La característica distintiva de las células procariotas es precisamente que <strong>carecen</strong> de membrana nuclear; su material genético (ADN circular) se encuentra concentrado en una región llamada <em>nucleoide</em>.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+
+    <correctfeedback format="html">
+      <text><![CDATA[<p>¡Muy bien analizado! La afirmación es totalmente falsa.</p>]]></text>
+    </correctfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Atención: Recuerda que 'pro-carionte' significa literalmente 'antes del núcleo'. No tienen carioteca.</p>]]></text>
+    </incorrectfeedback>
+
+    <answer fraction="0" format="html">
+      <text>true</text>
+      <feedback format="html">
+        <text><![CDATA[<p><strong>Incorrecto.</strong> Las bacterias no tienen envoltura nuclear; son procariotas.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>false</text>
+      <feedback format="html">
+        <text><![CDATA[<p><strong>¡Exacto!</strong> Las bacterias son células procariotas y no tienen núcleo membranoso.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
